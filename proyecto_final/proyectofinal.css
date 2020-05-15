@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: auto;
+    height: 55px;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+}
+
+.header img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.header p{
+    font-family: calibri;
+    font-size: 1.4em;
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.div{
+    text-align: center;
+}
+
+.div1{
+    opacity: 0;
+}
+
+.siguiendo {
+    margin-left: 20px;
+}
+
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+}
